@@ -5,7 +5,7 @@ body{
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -13,9 +13,7 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   border-color: darkgreen;
-  
 }
-
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: rgb(23, 110, 27);
@@ -28,18 +26,16 @@ input[type=submit] {
   top: 10px;
   left: 50%;
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #ccc;
   padding: 20px;
-} 
+}
 input[type="radio"]{
   border-color: darkgreen;
   margin-right: 15px;
@@ -49,34 +45,31 @@ label{
   font-size: 18px;
   border-top: 2px solid #ddd;
   border-bottom: 2px solid #ddd;
-  
-
 }
-
-  .button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    position: relative;
-    left: 50%;
-  }
-
-  .button:hover {background-color: #3e8e41}
-
-  .button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+  left: 50%;
+}
+.button:hover {
+  background-color: #3e8e41;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 /* The alert message box */
 .alert {
   padding: 20px;
@@ -84,7 +77,6 @@ label{
   color: white;
   margin-bottom: 15px;
 }
-
 /* The close button */
 .closebtn {
   margin-left: 15px;
@@ -96,8 +88,7 @@ label{
   cursor: pointer;
   transition: 0.3s;
 }
-
 /* When moving the mouse over the close button */
 .closebtn:hover {
   color: black;
-} 
+}
