@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="AUS.css">
+    <div id="banner" style="background-image:url(https://screenshots.firefoxusercontent.com/images/06cc5ffa-87e5-4ac1-9972-54d776419e1c.png)"></div>
+  </head>
+  <body>
+   
+<li id="pg">Rocket League</li>
+<li id="pg">Counter-Strike:Global Offensive</li>
+    <li id="pg">Rainbow six</li>
+    
+  <ul id="sg">Fortnite</ul> 
+    <ul id="sg">PUBG</ul>
+    <ul id="sg">Warframe</ul>
+    <ul id="am"><li>AND MORE...</li></ul>
+    
+    
+    <div id="navbar">
+      <a href="index.html#title1">Home</a>
+      <a href="About%20us.html">About Us</a>
+      <a href="Event.html">Events</a>
+      <a href="contact.html">Contact</a>
+    </div> 
+
+    <style>
+    * {box-sizing:border-box}
+      body {font-family: Verdana,sans-serif;}
+    .mySlides {display:none}
+
+    /* Slideshow container */
+    .slideshow-container {
+    position: relative;
+      height: 1000px;
+      width: 850px;
+     left: 400px;
+      top: -400px
+      
+      
+      }
+
+
+    .active {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+    }
+    </style>
+<body>
+
+  <h2 id="games">Games</h2>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="https://images4.alphacoders.com/607/thumb-1920-607402.jpg" style="width:70%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="tom_clancys_rainbow_six_siege-wallpaper-960x540.jpg" style="width:70%">
+      <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="counter_strike_global_offensive_10-wallpaper-960x540.jpg" style="width:70%">
+      <div class="text"></div>
+    </div>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3500); // Change image every 2 seconds
+    }
+    
+  </script>
+  <hr id="trait2" style="width: 25%;color: rgb(21, 18, 18)">
+  
+  <h3 id="obj">Objetcives</h3>
+  <p id="obj1">The principal objective of the team is to have fun and inprouve our-self in competitive video games.
+  But also to help new member to progress and make them good in every game wheach list just before . </p>
+  
+  <hr id="trait1" style="width: 25%;color: rgb(21, 18, 18)">
+
+  <h3 id="pam">Principal actives members</h3>
+  
+
+
+  <div class="card-profile-stats" id="cartes">
+    <div class="card-profile-stats-intro">
+      <img class="card-profile-stats-intro-pic" src="6cb5852133bad706eabe0093f2d43a54670e7cbe_full.jpg" alt="profile-image" />
+      <div class="card-profile-stats-intro-content">
+        <h3>SiO²|Phoenix "Nicolas"</h3>
+        <p><small>Founder // Create the team on Nov. 21th 2016</small>
+  </div> <!-- /.card-profile-stats-intro-content -->
+  </div> <!-- /.card-profile-stats-intro -->
+
+    <hr />
+
+    <div class="card-profile-stats-container">
+      <div class="card-profile-stats-statistic">
+        <span class="stat">1041</span>
+        <p>Ranked Elo</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat">936</span>
+        <p>hours</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat"></span>
+        <p>France</p><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/whatsapp/116/flag-for-france_1f1eb-1f1f7.png">
+      </div> <!-- /.card-profile-stats-statistic -->
+    </div> <!-- /.card-profile-stats-container -->
+
+    <div class="card-profile-stats-more">
+      <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+      <div class="card-profile-stats-more-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem libero fugit, pariatur maxime! Optio enim, deserunt quia molestiae fugiat delectus, dolore et esse nostrum, quod autem necessitatibus fugit soluta repellendus.
+        </p>
+      </div> <!-- /.card-profile-stats-more-content -->
+    </div> <!-- /.card-profile-stats-more -->
+    </div> <!-- /.card-profile-stats -->
+  <div class="card-profile-stats" id="cartes">
+    <div class="card-profile-stats-intro">
+      <img class="card-profile-stats-intro-pic" src="8759ad27eb9fa9a0da60cdb6b0aa0d71209a3a45_full.jpg" alt="profile-image" />
+      <div class="card-profile-stats-intro-content">
+        <h3>SiO²|DarK "Keanu"</h3>
+        <p><small>Admin // Join the team on Jan. 4th 2017</small>
+      </div> <!-- /.card-profile-stats-intro-content -->
+    </div> <!-- /.card-profile-stats-intro -->
+
+    <hr />
+
+    <div class="card-profile-stats-container">
+      <div class="card-profile-stats-statistic">
+        <span class="stat">1141</span>
+        <p>Ranked Elo</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat">869</span>
+        <p>hours</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat"></span>
+        <p>Begium</p><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/whatsapp/116/flag-for-belgium_1f1e7-1f1ea.png">
+      </div> <!-- /.card-profile-stats-statistic -->
+    </div> <!-- /.card-profile-stats-container -->
+
+    <div class="card-profile-stats-more">
+      <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+      <div class="card-profile-stats-more-content">
+        <p>
+          
+        </p>
+      </div> <!-- /.card-profile-stats-more-content -->
+    </div> <!-- /.card-profile-stats-more -->
+  </div> 
+  
+  <div class="card-profile-stats" id="cartes">
+    <div class="card-profile-stats-intro">
+      <img class="card-profile-stats-intro-pic" src="8759ad27eb9fa9a0da60cdb6b0aa0d71209a3a45_full.jpg" alt="profile-image" />
+      <div class="card-profile-stats-intro-content">
+        <h3>SiO²|Ice "Siebert"</h3>
+        <p><small>Admin // Join the team on Jan. 4th 2017</small>
+      </div> <!-- /.card-profile-stats-intro-content -->
+    </div> <!-- /.card-profile-stats-intro -->
+
+    <hr />
+
+    <div class="card-profile-stats-container">
+      <div class="card-profile-stats-statistic">
+        <span class="stat">905</span>
+        <p>Ranked Elo</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat">1050</span>
+        <p>hours</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat"></span>
+        <p>Begium</p><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/whatsapp/116/flag-for-belgium_1f1e7-1f1ea.png">
+      </div> <!-- /.card-profile-stats-statistic -->
+    </div> <!-- /.card-profile-stats-container -->
+
+    <div class="card-profile-stats-more">
+      <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+      <div class="card-profile-stats-more-content">
+        <p>
+
+        </p>
+      </div> <!-- /.card-profile-stats-more-content -->
+    </div> <!-- /.card-profile-stats-more -->
+  </div> 
+
+  
+  <div class="card-profile-stats" id="cartes">
+    <div class="card-profile-stats-intro">
+      <img class="card-profile-stats-intro-pic" src="data:image/jpeg;base64,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" alt="profile-image" />
+      <div class="card-profile-stats-intro-content">
+        <h3>SiO²|Vater Abraham "Marcus"</h3>
+        <p><small>member // Join the team on Jun. 15th 2017</small>
+      </div> <!-- /.card-profile-stats-intro-content -->
+    </div> <!-- /.card-profile-stats-intro -->
+
+    <hr />
+
+    <div class="card-profile-stats-container">
+      <div class="card-profile-stats-statistic">
+        <span class="stat">1029</span>
+        <p>Ranked Elo</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat">1425</span>
+        <p>hours</p>
+      </div> <!-- /.card-profile-stats-statistic -->
+      <div class="card-profile-stats-statistic">
+        <span class="stat"></span>
+        <p>Germany</p><img src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/whatsapp/116/flag-for-germany_1f1e9-1f1ea.png">
+      </div> <!-- /.card-profile-stats-statistic -->
+    </div> <!-- /.card-profile-stats-container -->
+
+    <div class="card-profile-stats-more">
+      <p class="card-profile-stats-more-link"><a href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a></p>
+      <div class="card-profile-stats-more-content">
+        <p>
+
+        </p>
+      </div> <!-- /.card-profile-stats-more-content -->
+    </div> <!-- /.card-profile-stats-more -->
+  </div> 
+  
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+  </body>
+</html>
