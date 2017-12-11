@@ -92,9 +92,4 @@ label{
 .closebtn:hover {
   color: black;
 }
-#discord{
-  position: relative;
-  top: 15px;
-  left: 25%;
-  height: 34%;
-  width: 75%;
+
