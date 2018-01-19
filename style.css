@@ -1,6 +1,7 @@
 body {
   background-color: whitesmoke;
   overflow-x: hidden;
+  background-image: url(https://media.discordapp.net/attachments/205659347718504449/394196486558318593/Capture.PNG?width=400&height=128);
 }
 #banner{
   position: relative;
@@ -116,6 +117,3 @@ position: relative;
   bottom: 70;
   left: 75%;
 }
-
-
-
