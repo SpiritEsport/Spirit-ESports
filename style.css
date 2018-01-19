@@ -1,15 +1,15 @@
+html body{
+  width: 100%;
+  border: 0;
+  height: 100%;
+}
 body {
   background-color: whitesmoke;
   overflow-x: hidden;
   height: 100%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(https://media.discordapp.net/attachments/205659347718504449/394196486558318593/Capture.PNG?width=400&height=128);
 }
 #banner{
   position: relative;
-  top: -105px;
   height: 410px;
   width: 110%;
   background-size: cover;
