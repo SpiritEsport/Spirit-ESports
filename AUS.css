@@ -1,0 +1,179 @@
+body{
+  background-color: whitesmoke;
+  overflow-x: hidden;
+
+}
+#games{
+  text-align: center;
+  position: relative;
+  top: -400px;
+  left: 45px;
+  text-decoration: underline;
+  font-family:monospace;
+  font-size: 45px;
+}
+#pg{list-style-type:disc;
+  font-family: 'Bungee', cursive;
+  font-size: 19px;
+  position: relative;
+  top: 300px;
+  left: auto:
+}
+#sg{
+  list-style-type:disc;
+  font-family: 'Bungee', cursive;
+  font-size: 19px;
+  position: relative;
+  top: 100px;
+  left: 1000px;
+  text-align: left;
+}
+#am{
+  position: relative;
+  top: 200px;
+  left: 46%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 25px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position:relative;
+  top: -450px;
+  width: 110%;
+  left: 0%;
+}
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: underline;
+  position: relative;
+  left: 38%;
+}
+/* Page content */
+.content {
+  padding: 16px;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+#navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgreen;
+}
+#trait2{
+  position: relative;
+  top: -1000px;
+  left: 50px
+}
+#obj{
+  text-align: center;
+  position: relative;
+  top: -1000px;
+  left: 45px;
+  text-decoration: underline;
+  font-family:monospace;
+  font-size: 45px
+}
+#obj1{position: relative;
+  top: -1000px;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  font-size: 25px;
+}
+#trait1{
+  position: relative;
+  top: 50%;
+}
+.card-profile-stats {
+  border: 1px solid #cacaca;
+  margin: 0 0 1.25rem;
+  padding: 1.25rem;
+  background: #fefefe;
+}
+.card-profile-stats .card-profile-stats-intro {
+  text-align: center;
+}
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+  border-radius: 50%;
+  margin: 0 0 1.25rem;
+}
+.card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-content p:last-child {
+  margin: 0;
+}
+.card-profile-stats .card-profile-stats-container {
+  text-align: center;
+}
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic {
+  margin: 0 0 1.25rem;
+}
+.card-profile-stats .card-profile-stats-container .card-profile-stats-statistic p:last-child {
+  margin: 0;
+}
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-link {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0a0a0a;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.card-profile-stats .card-profile-stats-more .card-profile-stats-more-content {
+  display: none;
+}
+@media print, screen and (min-width: 64em) {
+  .card-profile-stats .card-profile-stats-intro {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  .card-profile-stats .card-profile-stats-intro .card-profile-stats-intro-pic {
+    margin: 0 1.25rem 0 0;
+    max-width: 250px;
+  }
+  .card-profile-stats .card-profile-stats-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    flex-pack: distribute;
+    justify-content: space-around;
+  }
+  #pam{
+    font-family: monospace;
+    font-size: 35px;
+      font-family: 'Orbitron', sans-serif;
+    position: relative;
+    top: -1000px;
+    left: 415px;
+    font-style: oblique;
+    text-decoration: underline;
+   }
+  #cartes{
+    position: relative;
+    top: -1000px;
+  }
+}
+
+  
+  
+}
