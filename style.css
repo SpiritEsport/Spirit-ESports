@@ -58,7 +58,6 @@ body {
   text-align: center;
   text-decoration: underline;
   position: relative;
-  top: -150px;
   left: 40px;
 }
 #desk2{
@@ -66,12 +65,10 @@ body {
   font-size: 30px;
   text-align: center;
   position: relative;
-  top: -145px;
   left: 40px;
 }
 #trait1{
 position: relative;
-  top: -160px;
   left: 45px;
 }
 #chiffre{
@@ -80,11 +77,9 @@ list-style-type:disc;
   font-size: 30px;
   text-align: center;
   position: relative;
-  top: -100px;
   left: 40px;
 }
 #trait2{position: relative;
-  top: -40px;
   left: 45px;
 }
 #join{
